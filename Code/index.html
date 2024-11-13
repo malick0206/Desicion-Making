@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making and Recursion Tasks</title>
+</head>
+<body>
+    <h1>Decision Making (if-else & switch) and Recursion</h1>
+
+    <!-- Leap Year Checker -->
+    <section>
+        <h2>Leap Year Checker</h2>
+        <input type="number" id="yearInput" placeholder="Enter year">
+        <button onclick="checkLeapYear()">Check Leap Year</button>
+        <p id="leapYearResult"></p>
+    </section>
+
+    <!-- Ticket Pricing -->
+    <section>
+        <h2>Ticket Pricing</h2>
+        <input type="number" id="ageInput" placeholder="Enter your age">
+        <button onclick="checkTicketPrice()">Check Ticket Price</button>
+        <p id="ticketPriceResult"></p>
+    </section>
+
+    <!-- Clothing Advice -->
+    <section>
+        <h2>Clothing Advice for Rainy Weather</h2>
+        <input type="number" id="tempInput" placeholder="Enter temperature">
+        <input type="checkbox" id="rainInput"> Is it raining?
+        <button onclick="giveClothingAdvice()">Get Clothing Advice</button>
+        <p id="clothingAdviceResult"></p>
+    </section>
+
+    <!-- Fibonacci Sequence -->
+    <section>
+        <h2>Fibonacci Sequence</h2>
+        <input type="number" id="fibonacciInput" placeholder="Enter n for Fibonacci">
+        <button onclick="getFibonacci()">Get Fibonacci Number</button>
+        <p id="fibonacciResult"></p>
+    </section>
+
+    <!-- Palindrome Checker -->
+    <section>
+        <h2>Palindrome Checker</h2>
+        <input type="text" id="palindromeInput" placeholder="Enter string to check">
+        <button onclick="checkPalindromeString()">Check Palindrome</button>
+        <p id="palindromeResult"></p>
+    </section>
+
+    <!-- Power Function -->
+    <section>
+        <h2>Power Function</h2>
+        <input type="number" id="baseInput" placeholder="Enter base">
+        <input type="number" id="exponentInput" placeholder="Enter exponent">
+        <button onclick="calculatePower()">Calculate Power</button>
+        <p id="powerResult"></p>
+    </section>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
